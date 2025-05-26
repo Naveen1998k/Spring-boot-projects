@@ -20,6 +20,6 @@ public class Course
     private Date startDate;
     private String courseType; //Live OR Recodring
     private double fees;
-    private boolean isCertificateAvailable;
+    private boolean certificateAvailable;
     private String description;
 }

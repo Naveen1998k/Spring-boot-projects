@@ -1,0 +1,22 @@
+ private int courseId;
+    private String name;
+    private String trainerName;
+    private String duration; // days
+    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "dd-MM-yyyy")
+    private Date startDate;
+    private String courseType; //Live OR Recodring
+    private double fees;
+    private boolean isCertificateAvailable;
+    private String description;
+    {
+    "name" : "Spring Boot",
+    "trainerName":"K Naveen",
+    "duration" :"90 Days",
+    "startDate" : "28-05-2025",
+    "courseType" :"LIVE",
+    "fees" : 45000,
+    "isCertificateAvailable" : true,
+    "description" :"Spring Boote is Popular java framework"
+
+
+    }
