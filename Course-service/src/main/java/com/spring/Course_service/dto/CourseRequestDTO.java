@@ -10,9 +10,9 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Course
+public class CourseRequestDTO
 {
-    private int courseId;
+
     private String name;
     private String trainerName;
     private String duration; // days
