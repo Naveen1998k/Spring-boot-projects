@@ -8,6 +8,7 @@
     private double fees;
     private boolean isCertificateAvailable;
     private String description;
+
     {
     "name" : "Spring Boot",
     "trainerName":"K Naveen",
